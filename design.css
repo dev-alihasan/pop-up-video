@@ -67,4 +67,16 @@ body {
   max-width: 900px;
   outline: none;
 }
+@media (max-width: 991px) {
+  .trailer-container video {
+    max-width: 90%;
+  }
+}
 
+.close-icon {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: white;
+  cursor: pointer;
+}
